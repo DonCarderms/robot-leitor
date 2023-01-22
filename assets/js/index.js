@@ -4,7 +4,7 @@ const speedRange = document.querySelector('.speed-range')
 const speedView = document.querySelector('.value-speed-view')
 
 speedRange.oninput = function  () {
-    speedView.textContent = this.value;
+    speedView.textContent = `x ${this.value}`;
 }
 
 

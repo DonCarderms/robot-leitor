@@ -24,5 +24,37 @@
 }
 .speed-range{
     cursor: pointer;
-    height: 5px;
+    height: 15px;
+    width: 200px;
+}
+.controls{
+    margin: 20px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+}
+.bt-speak{
+    background-color: rgb(218, 187, 248);
+    margin-right: 20px;
+}
+.bt-speak:hover{
+    background-color: rgb(197, 156, 234);
+}
+
+.bt-stop{
+    color: #fff;
+    background-color: rgb(153, 62, 239);
+}
+.bt-stop:hover{
+    background-color:  rgb(138, 27, 242);
+}
+
+a{
+    text-decoration: none;
+    color: #e44242;
+}
+a:hover{
+    text-decoration: underline;
 }
