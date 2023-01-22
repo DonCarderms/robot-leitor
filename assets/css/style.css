@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.content{
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+.input-text{
+    padding: 20px;
+    border: 1px solid #ccc;
+    min-height: 300px;
+    outline: none;
+}
+.input-text:focus{
+    border: 1px solid rgb(126, 68, 180);
+}
+.speed-range{
+    cursor: pointer;
+    height: 5px;
+}

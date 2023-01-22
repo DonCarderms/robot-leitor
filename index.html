@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot leitor</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+     <div class="content">
+            <h1>Robot leitor</h1>
+
+            <div class="input-text" 
+                contenteditable
+                oninput="setText(event)"
+                >Seu texto aqui
+            </div>
+
+            <div class="controls">
+                <!-- <div>
+                    
+                    <label for="ton">Ton de voz</label>
+                    <input class="ton-range" type="range" min="1" max="10" id="ton" name="ton">
+                </div> -->
+                <div>
+                    <label for="speed">Velocidade </label>
+                    <input  class="speed-range" type="range" min="1" max="10" id="speed" step="0.10" name="speed" value="1">
+                    <span class="value-speed-view">1</span>
+                </div>
+            </div>
+                
+            <button  
+                class="bt-speak">Falar
+            </button>
+            <button 
+                
+                class="bt-stop">Parar
+            </button>
+        </div>
+
+     <script src="./assets/js/index.js"></script>
+</body>
+</html>
